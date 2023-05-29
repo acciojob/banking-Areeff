@@ -12,7 +12,7 @@ public class CurrentAccount extends BankAccount{
         this.tradeLicenseId = tradeLicenseId;
     }
 
-    String tradeLicenseId; //consists of Uppercase English characters only
+    private String tradeLicenseId; //consists of Uppercase English characters only
     public static double minBalance=5000;
     public int maxValue=Integer.MIN_VALUE;
     HashMap<Character,Integer> map=new HashMap<>();
